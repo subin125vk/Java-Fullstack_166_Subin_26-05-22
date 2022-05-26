@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+</head>
+<body>
+<form>
+<fieldset>
+<legend>User info:</legend>
+Name:<input type="text" name="name" id="name" placeholder="Enter name">
+Password:<input type="password" name="password" id="password" placeholder="Enter Password"><br>
+Enter Address:<textarea rows="2" cols="20"></textarea><br>
+Email:<input type="email" name="email" id="email"></fieldset><br>
+<label for="firstname">First Name: </label> <br/>  
+<input type="text" id="firstname" name="firstname"/> <br>
+<br>
+<label for="gender">Gender:</label>
+<input type="radio" id="gender" name="gender" value="male"/>Male
+<input type="radio" id="gender" name="gender" value="female"/>female
+<input type="button" value="submit">
+<br>
+<br>
+<table><tr>  
+    <td class="tdLabel"><label for="register_country" class="label">Select Country:</label></td>  
+    <td><select name="country" id="register_country" style="width:160px">  
+    <option value="india">india</option>  
+    <option value="pakistan">pakistan</option>  
+    <option value="africa">africa</option>  
+    <option value="china">china</option>  
+    <option value="other">other</option>  
+</select>  
+</td>  
+</tr>  </table>
+<br>
+Hobby:<br>
+<input type="checkbox" id="cricket" name="cricket" value=cricket/>
+<label for="cricket">Cricket</label><br>
+<input type="checkbox" id="football" name="football" value="football"/>
+<label for="football">football</label><br>
+</form>
+</body>
+</html>

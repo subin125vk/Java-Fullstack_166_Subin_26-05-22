@@ -1,0 +1,13 @@
+@charset "ISO-8859-1";
+h1{color:red;
+text-align:center}
+h2{color:green;
+text-align:left}
+h3{
+	color:yellow;
+	text-align:right;
+}
+p{
+	color:black;
+	text-align:right
+}
